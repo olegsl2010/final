@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView">
+<RelativeLayout
+    android:id="@+id/rlFruits"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ivFruit"
+        android:contentDescription="@string/ivFruit" />
+
+    <TextView
+        android:id="@+id/twNameFruit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ivFruit"
+        android:textSize="@dimen/tw_name_fruit"
+        android:textStyle="bold"
+        android:textColor="@color/colorName"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+    <TextView
+        android:id="@+id/twDescFruit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/twNameFruit"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/twSpraying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/twDescFruit"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="@string/twSpraying"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorSpray"/>
+
+    <TextView
+        android:id="@+id/twCountTreeses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/twSpraying"
+        android:text="@string/countTreeses"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+
+    <EditText
+        android:id="@+id/etCountTreeses"
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:lines="1"
+        android:layout_below="@id/twCountTreeses"
+        android:layout_centerHorizontal="true"
+        android:imeOptions="actionDone"
+        android:numeric="integer"
+        tools:ignore="Deprecated" />
+    <TextView
+        android:id="@+id/twWhatNeed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etCountTreeses"
+        android:text="@string/twWhatNeed"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"/>
+    <TextView
+        android:id="@+id/twCountPesticide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:textColor="@color/colorSpray"
+        android:layout_below="@id/twWhatNeed"/>
+    <TextView
+        android:id="@+id/twCountPesticideName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/twWhatNeed"
+        android:layout_toEndOf="@+id/twCountPesticide"
+        android:layout_toRightOf="@+id/twCountPesticide"/>
+
+    <TextView
+        android:id="@+id/twCountFungicide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:textColor="@color/colorSpray"
+        android:layout_toEndOf="@+id/twCountPesticideName"
+        android:layout_below="@id/twWhatNeed"
+        android:layout_toRightOf="@+id/twCountPesticideName"/>
+    <TextView
+        android:id="@+id/twCountFungicideName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/twWhatNeed"
+        android:layout_toEndOf="@+id/twCountFungicide"
+        android:layout_toRightOf="@+id/twCountFungicide"/>
+
+</RelativeLayout>
+</ScrollView>

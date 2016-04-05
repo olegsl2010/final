@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Fruits</string>
+    <string name="action_settings">Settings</string>
+    <string name="apricot">Apricot</string>
+    <string name="apricot_descr">Prunus armeniaca is a small tree, 8–12 m (26–39 ft) tall, with a trunk up to 40 cm (16 in)
+        in diameter and a dense, spreading canopy. The leaves are ovate, 5–9 cm (2.0–3.5 in) long and 4–8 cm (1.6–3.1 in) wide,
+        with a rounded base, a pointed tip and a finely serrated margin. The flowers are 2–4.5 cm (0.8–1.8 in) in diameter, with five white
+        to pinkish petals; they are produced singly or in pairs in early spring before the leaves. The fruit is a drupe similar to a small peach,
+        1.5–2.5 cm (0.6–1.0 in) diameter (larger in some modern cultivars), from yellow to orange, often tinged red on the side most exposed to the sun;
+        its surface can be smooth (botanically described as: glabrous) or velvety with very short hairs (botanically: pubescent). The flesh is usually firm
+        and not very juicy. Its taste can range from sweet to tart. The single seed is enclosed in a hard, stony shell, often called a "stone", with a grainy,
+        smooth texture except for three ridges running down one side.</string>
+    <string name="pesticide">ENDJIO</string>
+    <string name="fungicide">KHORUS</string>
+    <string name="persica">Persica</string>
+    <string name="persics_descr">Prunus persica grows to 4–10 m (13–33 ft) tall and 6 in. in diameter. The leaves are lanceolate, 7–16 cm (2.8–6.3 in) long, 2–3 cm
+        (0.79–1.18 in) broad, pinnately veined. The flowers are produced in early spring before the leaves; they are solitary or paired, 2.5–3 cm diameter, pink,
+        with five petals. The fruit has yellow or whitish flesh, a delicate aroma, and a skin that is either velvety (peaches) or smooth (nectarines) in different
+        cultivars. The flesh is very delicate and easily bruised in some cultivars, but is fairly firm in some commercial varieties, especially when green. The single,
+        large seed is red-brown, oval shaped, approximately 1.3–2 cm long, and is surrounded by a wood-like husk. Peaches, along with cherries, plums and apricots, are
+        stone fruits (drupes). There are various heirloom varieties, including the Indian peach, which arrives in the latter part of the summer.[6]
+        Cultivated peaches are divided into clingstones and freestones, depending on whether the flesh sticks to the stone or not; both can have either white or
+        yellow flesh. Peaches with white flesh typically are very sweet with little acidity, while yellow-fleshed peaches typically have an acidic tang coupled with
+        sweetness, though this also varies greatly. Both colors often have some red on their skin. Low-acid white-fleshed peaches are the most popular kinds in China,
+        Japan, and neighbouring Asian countries, while Europeans and North Americans have historically favoured the acidic, yellow-fleshed cultivars.</string>
+    <string name="pyrus">Pyrus</string>
+    <string name="pyrus_descr">The pear is native to coastal and mildly temperate regions of the Old World, from western Europe and north Africa east right across Asia.
+        It is a medium-sized tree, reaching 10–17 metres (33–56 ft) tall, often with a tall, narrow crown; a few species are shrubby.
+The leaves are alternately arranged, simple, 2–12 centimetres (0.79–4.72 in) long, glossy green on some species, densely silvery-hairy 
+        in some others; leaf shape varies from broad oval to narrow lanceolate. Most pears are deciduous, but one or two species in southeast
+        Asia are evergreen. Most are cold-hardy, withstanding temperatures between −25 °C (−13 °F) and −40 °C (−40 °F) in winter, except for 
+        the evergreen species, which only tolerate temperatures down to about −15 °C (5 °F).
+The flowers are white, rarely tinted yellow or pink, 2–4 centimetres (0.79–1.57 in) diameter, and have five petals.[3] Like that of the related apple,
+        the pear fruit is a pome, in most wild species 1–4 centimetres (0.39–1.57 in) diameter, but in some cultivated forms up to 18 centimetres (7.1 in)
+        long and 8 centimetres (3.1 in) broad; the shape varies in most species from oblate or globose, to the classic pyriform pear-shape of the European
+        pear with an elongated basal portion and a bulbous end.</string>
+    <string name="prunus">Prunus</string>
+    <string name="prunus_descr">Prunus armeniaca is a small tree, 8–12 m (26–39 ft) tall, with a trunk up to 40 cm (16 in) in diameter and a dense, spreading canopy.
+        The leaves are ovate, 5–9 cm (2.0–3.5 in) long and 4–8 cm (1.6–3.1 in) wide, with a rounded base, a pointed tip and a finely serrated margin. The flowers are
+        2–4.5 cm (0.8–1.8 in) in diameter, with five white to pinkish petals; they are produced singly or in pairs in early spring before the leaves. The fruit is a drupe 
+        similar to a small peach, 1.5–2.5 cm (0.6–1.0 in) diameter (larger in some modern cultivars), from yellow to orange, often tinged red on the side most exposed to the sun;
+        its surface can be smooth (botanically described as: glabrous) or velvety with very short hairs (botanically: pubescent). The flesh is usually firm and not very juicy.
+        Its taste can range from sweet to tart. The single seed is enclosed in a hard, stony shell, often called a "stone", with a grainy, smooth texture except for three ridges
+        running down one side.</string>
+    <string name="apple">Apple</string>
+    <string name="apple_descr">Apple trees are typically 4–12 m (13–39 ft) tall at maturity, with a dense, twiggy crown. The leaves are 3–10 cm (1.2–3.9 in) long, alternate,
+        simple, with a serrated margin. The flowers are borne in corymbs, and have five petals, which may be white, pink or red, and are perfect, with usually red stamens that
+        produce copious pollen, and a half-inferior ovary; flowering occurs in the spring after 50–80 growing degree days (varying greatly according to subspecies and cultivar).</string>
+    <string name="ivFruit">ivFruit</string>
+    <string name="twSpraying">Spraying</string>
+    <string name="countTreeses">How much treeses do you have ?</string>
+    <string name="twWhatNeed">For Spraying you need :</string>
+    <string name="titleMail">What You need for - </string>
+    <string name="bodyMail">I need to buy : \n</string>
+    <string name="action_about">About</string>
+    <string name="checkLanguage">Choose your language:</string>
+    <string name="radioEnglish">English</string>
+    <string name="radioRussian">Russian</string>
+    <string name="button_ok">OK</string>
+    <string name="aboutText"> Hi do You have garden or cottage ? Do you have fruit tree ? If Yes this application for You.
+    You have apple tree but you don\'t have fruit. WHY ??? You ask yourself.  This application for You. We helps you understand. How to treat your tree. </string>
+    <string name="byMe">Created by Oleg Sokolenko</string>
+</resources>
