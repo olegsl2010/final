@@ -7,7 +7,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.widget.Toast;
 
 import java.util.ArrayList;
@@ -15,7 +14,7 @@ import java.util.List;
 
 import butterknife.Bind;
 import ua.olegsl.fruits.data.InsertFruit;
-import ua.olegsl.fruits.instance.Fruit;
+import ua.olegsl.fruits.models.Fruit;
 
 /**
  * Created by olegs on 04.04.2016.
@@ -49,7 +48,9 @@ public class MainActivity extends BaseActivity{
 
         Adapter adapter = new Adapter(getSupportFragmentManager());
         for(int i = 0; i<fruitArrayList.size(); i++){
-            adapter.addFragment(BaseFruitsFragment.newInstance(fruitArrayList.get(i)),fruitArrayList.get(i).getmNameFruit());
+            adapter.addFragment(
+                    BaseFruitsFragment.newInstance(fruitArrayList.get(i)),
+                    fruitArrayList.get(i).getmNameFruit());
         }
         viewPager.setAdapter(adapter);
     }
@@ -65,8 +66,10 @@ public class MainActivity extends BaseActivity{
         Intent i = new Intent(Intent.ACTION_SEND);
         i.setType("message/rfc822");
         i.putExtra(Intent.EXTRA_SUBJECT, getResources().getString(R.string.titleMail) + fruitArrayList.get(viewPager.getCurrentItem()).getmNameFruit());
-        String body = fruitArrayList.get(viewPager.getCurrentItem()).getmCountFungicide()*treeses+ " - "+ fruitArrayList.get(viewPager.getCurrentItem()).getmNameFungicide()+"\n"
-                + fruitArrayList.get(viewPager.getCurrentItem()).getmCountPesticide()*treeses+ " - "+fruitArrayList.get(viewPager.getCurrentItem()).getmNamePesticide();
+        String body = fruitArrayList.get(viewPager.getCurrentItem()).getmCountFungicide()*treeses+ " - "+
+                fruitArrayList.get(viewPager.getCurrentItem()).getmNameFungicide()+"\n"
+                + fruitArrayList.get(viewPager.getCurrentItem()).getmCountPesticide()*treeses+ " - "
+                +fruitArrayList.get(viewPager.getCurrentItem()).getmNamePesticide();
         i.putExtra(Intent.EXTRA_TEXT, getResources().getString(R.string.bodyMail)+body);
         try {
             startActivity(Intent.createChooser(i, "Send mail..."));

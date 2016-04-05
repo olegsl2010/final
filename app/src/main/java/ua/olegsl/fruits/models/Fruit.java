@@ -1,4 +1,4 @@
-package ua.olegsl.fruits.instance;
+package ua.olegsl.fruits.models;
 
 import java.io.Serializable;
 

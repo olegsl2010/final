@@ -5,7 +5,7 @@ import android.content.Context;
 import java.util.ArrayList;
 
 import ua.olegsl.fruits.R;
-import ua.olegsl.fruits.instance.Fruit;
+import ua.olegsl.fruits.models.Fruit;
 
 /**
  * Created by olegs on 04.04.2016.
